@@ -81,6 +81,7 @@ min-width: 40%;
     margin: 0.5rem;
     font-size: 1.2rem;
     background-color: white;
+    transition: 1s ease-in-out;
 
 
 }
@@ -108,4 +109,13 @@ min-width: 40%;
 .gorev-tamamlandi{
     text-decoration: line-through;
     opacity: 0.5;
+}
+
+.far{
+
+    pointer-events: none;
+}
+.kaybol{
+
+    transform: scale(0);
 }
